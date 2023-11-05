@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+    color: #4A5567;
+}
+
+body{
+    background: linear-gradient(to top right, #7429C6 0%, transparent 100%) ,
+                linear-gradient(to bottom left, #C951E7 0%, transparent 100%) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin: 0px;
+
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97.5vh;
+    width: 100%;
+}
+
+.letters-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.letters-background h1{
+    position: relative;
+    right: 26vh;
+    font-size: 13rem;
+    letter-spacing: 0.5rem;
+    color: #e0a1f0;
+    
+}
+
+.letters-background h2{
+    position: relative;
+    font-size: 13rem;
+    letter-spacing: 0.5rem;
+    color: #e0a1f0;
+    left: 17.9vh;
+    
+}
+
+
+
+.Game-conteiner {
+    z-index: 1;
+    height: 64vh;
+    width: 62vh;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    background-color: #030616;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.Game-conteiner h2{
+    background-image: linear-gradient(to right,#7429C6,#672171,#C951E7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.letters-conteiner{
+    height: 8vh;
+    width: 47vh;
+    background-color: #4A5567;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letters-conteiner p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #97A3B6;
+}
+
+.tries-mistaekes-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tries-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.tries {
+    height: 1.5vh;
+    width: 1.5vh;
+    background-color: #4A5567;
+    border-radius: 100px;
+    margin-right: 3px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.mistaekes-conteiner {
+    display: flex;
+    margin-left: 50px;
+    
+}
+
+.Ramdon-reset-contiener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.Ramdon-reset-contiener button{
+    color: #F2F5F9;
+    padding: 10px 20px 10px 20px;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    background-color: #C951E7;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 4px 0px #672171;
+}
+
+.words-letters-conteiner{
+    margin-top: 8vh;
+    
+}
+
+.words-letters-conteiner input{
+    background-color: #030616;
+    color: #F2F5F9;
+    border: solid 2px #4A5567;
+    width: 23px;
+    height: 25px;
+    text-indent: 7px;
+    margin-left: 8px;
+    border-radius: 5px;
+    padding: 5px;
+    
+    
+}
+
+@media screen and (max-width:640px) {
+    .conteiner{
+        height: 199vh;
+        width: 70vh;
+    }
+
+    .Game-conteiner {
+    
+        height: 60vh;
+        width: 55vh;
+        
+        top: 98%;
+        left: 79%;
+       
+        
+        
+    }
+    
+}
+
+@media screen and (min-width: 641px) and (max-width:850px){
+    .conteiner{
+        height: 130vh;
+        width: 70vh;
+    }
+    .Game-conteiner {
+    
+        height: 50vh;
+        width: 50vh;
+        
+        top: 70%;
+        left: 50%;
+       
+        
+        
+    }
+}
+
+
+
+
+
